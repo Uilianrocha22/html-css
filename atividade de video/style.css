@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Rancho & display=swap');
+
+body{ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     background-image: linear-gradient(to bottom,#0FC2C0,#008F8C,#023535);
+
+
+}    
+
+div{ margin-left: 300px;
+     
+
+
+}
+
+
+main{
+     
+ font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    background-color: aqua;
+    margin:00;
+    width: 800px;
+    padding: -3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0f4949;
+}
+
+
+img{
+     box-shadow: 10px 10px 10px #67ecec;
+}
+
+h2 { color: white;
+
+}
+
+h1:hover{
+color: red;
+}
