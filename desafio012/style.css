@@ -1,0 +1,169 @@
+@charset "utf-8" ;
+
+@font-face{
+     font-family: "cordel";
+     src: url("fontes/Passion_One/PassionOne-Regular.ttf") format(truetype);
+}
+@font-face{
+     font-family: "cordel 2";
+     src: url("fontes/Sriracha/Sriracha-Regular.ttf" ) format(truetype);
+}
+
+*{
+     margin: ;
+     padding:;
+}
+  body{ margin: auto;
+     font-family: "cordel 2";
+     
+     height: 200vh;
+     text-align: justify;
+    
+  
+  }
+
+     header{
+          min-width: 310px;
+          background-color: black;
+          height: 200px;
+          color: white;
+          margin: -5px;
+          text-align: center;
+          padding-top: 50px;
+     }
+    header p a{
+          text-decoration: none;
+          color: white;
+          font-family: "cordel 2";
+          
+          
+
+
+     }
+     header a:hover{
+          background-color: white;
+          color: black;
+     }
+     h1 {
+          font-family: "cordel";
+          font-size: 3em;
+          padding-top:10px ;
+          margin: auto;
+     }
+    
+       
+       section.a > p {
+         
+          height: 60vh;
+          font-size: 1.3em;
+          padding: 15px;
+          padding-bottom: 0px;
+          padding-top: 95px;
+          
+          margin: 10px;
+          
+          
+
+       }
+       section.b{ height: 100px;
+          color: white;
+          background-image: url(imagens/background001.jpg);
+          background-repeat: no-repeat;
+          background-position: right;
+          height: 70vh;
+          background-size: cover;
+          background-attachment: fixed;
+          padding: 15px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          
+
+
+       }
+       article{
+          font-family: "cordel 2";
+          font-size: 1.3em;
+          background-color: rgba(0, 0, 0, 0.158);
+          position: absolute;
+          width: 280px;
+          height: 340px;
+          padding: 15px;
+          margin: 10px;
+          border-radius: 2px 2px 2px black;
+          padding-top: 15px;
+          padding-bottom: 15px; 
+       } 
+       section.c{
+          height: 90vh;
+          font-size: 1.3em;
+          padding: 15px;
+          padding-top: 15px;
+          padding-bottom: 40px;
+          
+          margin:10px;
+          
+       }
+       section.d{
+          background-image: url("imagens/background002.jpg");
+          height: 50vh;
+          background-repeat: no-repeat;
+          background-position: right;
+          height: 70vh;
+          background-size: cover;
+          background-attachment: fixed;
+          font-size: 1.3em;
+          padding: 5px;
+          padding-top: 15px; 
+          padding-bottom: 15px;
+          margin: 0px;
+          
+
+          }
+           section.d p{ 
+               color: white;               font-size: 1.2em;
+               padding: 5px ;
+               margin: 20px;
+               padding-top: 15px;
+               padding-bottom: 15px;
+           }
+        
+          
+          
+               
+          
+       section.ae{
+          height: 100vh;
+          font-size: 1.3em;
+          padding: 5px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          
+          margin: 20px;
+          
+       }
+       
+      
+       footer{
+          background-color: black;
+          color: white;
+          font-family: "cordel 2";
+          font-size: 1em;
+          padding-left: 20px;
+          text-align: center;
+       }
+    
+     footer a { text-align: center;
+         
+          font-size: 1.1em;
+          
+          
+         
+          
+          
+          color: white;
+          
+     }
+     footer a:hover{
+          background-color:rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+     }
