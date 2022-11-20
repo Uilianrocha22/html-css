@@ -15,7 +15,7 @@
 }
   body{ margin: auto;
      font-family: "cordel 2";
-     min-width: 40vh;
+     min-width: 280px;
      min-height: 100vh;
      text-align: justify;
     
@@ -66,7 +66,8 @@
      }
     
        
-       section.a > p {
+       section p {
+          padding-bottom: 1.5em;
          
           
          
@@ -75,11 +76,14 @@
           
 
        }
-       section.b{ height: 100px;
+       section.b{ 
+          box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.332);
+          
+          height: 100px;
           color: white;
           background-image: url(imagens/background001.jpg);
           background-repeat: no-repeat;
-          background-position: right;
+          background-position: right center;
           height: 60vh;
           background-size: cover;
           background-attachment: fixed;
@@ -91,6 +95,7 @@
        article{
           font-family: "cordel 2";
           padding: 10px;
+          text-shadow: 1px 1px 1px black;
           
           background-color: rgba(0, 0, 0, 0.158);
           position: absolute;
@@ -102,7 +107,7 @@
          
        } 
        section.c{
-          height: 110vh;
+          height: 115vh;
           
           
           
@@ -110,9 +115,10 @@
           
        }
        section.d{
+          box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.341);
           background-image: url("imagens/background002.jpg");
           background-repeat: no-repeat;
-          background-position: right;
+          background-position: right center;
           height: 60vh;
           background-size: cover;
           background-attachment: fixed;
@@ -134,7 +140,7 @@
                
           
        section.ae{
-          height: 100vh;
+          height: 115vh;
           
           
     
