@@ -23,11 +23,10 @@
   }
 
      header{
-          min-width: 310px;
+          min-width: 280px;
           background-color: black;
           height: 200px;
           color: white;
-          margin: -5px;
           text-align: center;
           padding-top: 50px;
           padding-bottom: 50px;
@@ -67,7 +66,7 @@
     
        
        section p {
-          padding-bottom: 1.5em;
+          padding-bottom: 2em;
          
           
          
@@ -76,10 +75,10 @@
           
 
        }
-       section.b{ 
+       section.a{ 
           box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.332);
           
-          height: 100px;
+          
           color: white;
           background-image: url(imagens/background001.jpg);
           background-repeat: no-repeat;
@@ -87,6 +86,8 @@
           height: 60vh;
           background-size: cover;
           background-attachment: fixed;
+          padding-top: 10vh;
+          padding-bottom: 10vh;
          
           
 
@@ -106,15 +107,14 @@
           border-radius: 2px 2px 2px black;
          
        } 
-       section.c{
-          height: 115vh;
+      
           
           
           
           
           
-       }
-       section.d{
+       
+       section.b{
           box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.341);
           background-image: url("imagens/background002.jpg");
           background-repeat: no-repeat;
@@ -122,53 +122,35 @@
           height: 60vh;
           background-size: cover;
           background-attachment: fixed;
+          padding-top: 10vh;
+          padding-bottom: 10vh;
           
           
          
           
 
           }
-           section.d p{ 
+
+           section.b p{ 
                color: white;               
               
-            
-              
-           }
-        
-          
-          
-               
-          
-       section.ae{
-          height: 115vh;
-          
-          
-    
-          
-       }
-       
+          }
       
        footer{
           text-decoration: none;
           color: white;
           font-weight: bolder;
           background-color: black;
-         
           font-family: "cordel 2";
           font-size: 1em;
           padding: 10px;
           text-align: center;
        }
     
-     footer a { text-align: center;
+     footer a {
+          text-align: center; 
           text-decoration: none;
-         
-          font-size: 1.1em;
-          
-          
-         
-          
-          
+          font-size: 1em;
           color: white;
           
      }
