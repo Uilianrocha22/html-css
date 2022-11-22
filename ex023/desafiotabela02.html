@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>tabelas</title>
+     <style>
+          body{
+               font-family: Arial, Helvetica, sans-serif;
+               font-variant: small-caps;
+               font-weight: bold;
+          }
+          table{
+               width: 650px;
+               border-collapse: collapse;
+          }
+          th{
+               font-weight: bold;
+               font-size: 1.2em;
+              
+               border: 2px solid rgb(0, 0, 0);
+               padding: 10px;
+          }
+          td{ font-size: 1em;
+               width: 500px;
+               border: 2px solid black;
+               padding: 10px;
+
+          }
+          th{
+               background-color: rgba(30, 24, 24, 0.807);
+               color: white;
+          }
+          th.a{
+               background-color: palevioletred;
+               color: black;
+          }
+          th.b{
+               background-color: lightskyblue;
+               color: black;
+          }
+          td.c{
+               background-color: rgba(216, 112, 147, 0.316);
+          }
+          td.b{
+               background-color: rgba(89, 186, 218, 0.438);
+          }
+          div#container{
+               overflow-x: auto;
+          }
+     </style>
+</head>
+<body>
+     <h1>desafio de tabela 3</h1>
+     <div id="container">
+          <table>
+               <thead>
+                    <tr>
+                         <th scope="col">grupo</th>
+                         <th scope="col">nomes</th>
+                         <th colspan="3" scope="colgroup">filmes</th>
+                    </tr>
+               </thead>
+               <tbody>
+          
+          
+                    <tr>
+                         <th rowspan="3" scope="rowgroup"class="a">mulheres</th>
+                         <td class="c">Ana Maria Santos</td>
+                         <td class="c">alien</td>
+                         <td class="c">rambo</td>
+                         <td class="c">vingadores</td>
+                    </tr>
+                    <tr>
+          
+                         <td class="c">Beatriz Souza</td>
+                         <td class="c">hulk</td>
+                         <td class="c">inception</td>
+                         <td class="c">batman</td>
+                    </tr>
+                    <tr>
+          
+                         <td class="c">Cláudia Melo</td>
+                         <td class="c">oblivion</td>
+                         <td class="c">matriz</td>
+                         <td class="c">big hero</td>
+                    </tr>
+                    <tr>
+                         <th rowspan="3" scope="rowgroup"   class="b">homens</th>
+                         <td class="b">Bruno Mendonça</td>
+                         <td class="b">intocáveis</td>
+                         <td class="b">amnésia</td>
+                         <td class="b">gladiador</td>
+                    </tr>
+                    <tr>
+                         <td class="b">Daniel Lourenço</td>
+                         <td class="b">wall-e</td>
+                         <td class="b">oldboy</td>
+                         <td class="b">dangal</td>
+                    </tr>
+                    <tr>
+                         <td class="b">Fabiano Mota</td>
+                         <td class="b">star wars 5</td>
+                         <td class="b">taxi driver</td>
+                         <td class="b">toy story</td>
+                    </tr>
+               </tbody>
+          
+          
+          </table>
+     </div>
+     
+</body>
+</html>

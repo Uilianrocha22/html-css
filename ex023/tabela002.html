@@ -6,11 +6,21 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>tabela</title>
      <style>
-          body{
-               background-color:rgba(47, 79, 79, 0.551);
+          body{ 
+               
+              
                font-family: Arial, Helvetica, sans-serif;
           }
+         
+          caption{
+               font-size: 1.5em;
+               text-align:center ;
+               font-weight: bold;
+               padding: 10px;
+               background-color: lightblue;
+          }
           table{
+               position: relative;
                border: 1px solid rgba(0, 0, 0, 0.322);
                width: 500px;
                border-collapse: collapse;
@@ -23,7 +33,9 @@
                padding: 5px;
                background-color: white;
           }
-          th{
+          th{  
+               font-variant: small-caps;
+               text-align: left;
                border: 1px solid rgba(0, 0, 0, 0.471);
                padding: 5px;
              
@@ -33,75 +45,99 @@
                background-color: cadetblue;
                color: rgb(255, 253, 253);
           }
-          tfoot td {  
+         
+          tfoot th {  
                background-color: cadetblue;
                color: rgb(255, 253, 253);
           }
+          td.num{
+               text-align: center;
+          }
+          td.est{
+               text-align: center;
+          }
+          tfoot td{
+               background-color: cadetblue;
+               color: rgb(255, 253, 253);
+
+          }
+          
+       
+               
      </style>
 </head>
 <body>
-     <h1>uso de tabelas grandes</h1>
+     <h1 style="text-align: justify;">
+          uso de tabelas grandes
+     </h1>
+   
      <table>
+          <caption>
+               população das unidades federativas
+          </caption>
+
           <thead>
                <tr>
-                    <th>posiçã</th>
-                    <th>estado</th>
-                    <th>população</th>
+                    <th scope="col" style="width:50px ;">posição</th>
+                    <th scope="col" style="width: 200px ;">estado</th>
+                    <th scope="col" style="width: 150px;">população</th>
                </tr>
               
                
           </thead>
-          <tbody>
+          <tbody style="tr:nth-child(even){
+            
+               background-color: rgb(205, 27, 27)}">
                <tr>
                     <td>01</td>
-                    <td>são paulo</td>
-                    <td>46 649 132</td>
+                    <td class="est">são paulo</td>
+                    <td class="num">46 649 132</td>
                </tr>
                <tr>
                     <td>02</td>
-                    <td>minas gerais</td>
-                    <td>21 411 923</td>
+                    <td class="est">minas gerais</td>
+                    <td  class="num">21 411 923</td>
                </tr>
           
                <tr>
                     <td>03</td>
-                    <td>rio de janeiro </td>
-                    <td>17 463 349</td>
+                    <td class="est">rio de janeiro </td>
+                    <td  class="num">17 463 349</td>
                </tr>
                <tr>
                     <td>04</td>
-                    <td>bahia</td>
-                    <td>14 985 284</td>
+                    <td class="est">bahia</td>
+                    <td  class="num">14 985 284</td>
 
                </tr>
               <tr>
-               <td>05</td>
-               <td>paraná</td>
-               <td>11 597 484</td>
+                    <td>05</td>
+                    <td class="est">paraná</td>
+                    <td  class="num">11 597 484</td>
               </tr>
               <tr>
-               <td>06</td>
-               <td>rio grande do sul</td>
-               <td>11 466 630</td>
+                    <td>06</td>
+                    <td class="est">rio grande do sul</td>
+                    <td  class="num">11 466 630</td>
               </tr>
               <tr>
-               <td>07</td>
-               <td>pernambuco</td>
-               <td>9 674 793</td>
+                    <td>07</td>
+                    <td class="est">pernambuco</td>
+                    <td  class="num">9 674 793</td>
               </tr>
               <tr>
-               <td>08</td>
-               <td>ceará</td>
-               <td>9 240 580</td>
+                    <td>08</td>
+                    <td class="est">ceará</td>
+                    <td  class="num">9 240 580</td>
               </tr>
               <tr>
-               <td>09</td>
-               <td>pará</td>
-               <td>8 777 124</td>
+                    <td>09</td>
+                    <td class="est">pará</td>
+                    <td  class="num">8 777 124</td>
                <tr>
                     <td>10</td>
-                    <td>santa catarina</td>
-                    <td>7 338 473</td>
+                    <td class="est">santa catarina</td>
+                    <td  class="num">7 338 473</td>
                </tr>
           </tr>
 
@@ -110,9 +146,9 @@
           <tfoot>
                <tr>
                     <td></td>
-                    <td>total habitantes</td>
+                    <th scope="row" >total habitantes</th>
 
-                    <td>158 604 772</td>
+                    <td  class="num">158 604 772</td>
                </tr>
              
                     

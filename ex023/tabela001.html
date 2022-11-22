@@ -15,16 +15,22 @@
                border-collapse: collapse;
              
           }
-          tr{
-           
-               
-          }
+        
           td{ border: 1px solid rgba(0, 0, 0, 0.3);
                text-align:center;
                vertical-align:middle;
-               padding: 8px;
+               padding: 10px;
             
 
+          }
+          tbody tr:nth-child(even){
+            
+               background-color: lightgrey;
+          }
+          p{
+               font-family: Arial, Helvetica, sans-serif;
+               text-align: justify;
+               font-size: 1.5em;
           }
          
 
@@ -34,6 +40,7 @@
 </head>
 <body>
      <h1>minha primeira tabela</h1>
+     <p>com efeito zebrado</p>
      <table>
           <tr>
                <td>A1</td>
@@ -55,6 +62,17 @@
                <td>A4</td>
                <td>B4</td>
                <td>C4</td>
+          </tr>
+          <tr>
+               <td>A5</td>
+               <td>B5</td>
+               <td>C5</td>
+
+          </tr>
+          <tr>
+               <td>A6</td>
+               <td>B6</td>
+               <td>C6</td>
           </tr>
         
 
