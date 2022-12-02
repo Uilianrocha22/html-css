@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>formularios</title>
+     <style>
+          *{
+               font-family: Arial, Helvetica, sans-serif;
+          }
+     </style>
+</head>
+<body>
+     <h1>teste de formularios</h1>
+     <br>
+     <form action="cadastro de usuario" method="post" autocomplete="on">
+          <p> 
+               <label for="iusuario"> Usuario:</label>
+               <input type="text" name="usuario" id="iusuario" required size="30" placeholder="nome do usuario" autocomplete="username">
+          </p>
+          <p>
+               <label for="isenha"> senha:</label>
+               <input type="password" name="senha" id="isenha" required minlength="5" maxlength="15" size="30" placeholder="minimo 5 letras" autocomplete="current-password">
+          </p>
+          <p>
+               <input type="submit" value="Enviar">
+               <input type="reset" value="Limpar">
+          </p>
+         
+
+
+     </form>
+     
+</body>
+</html>
