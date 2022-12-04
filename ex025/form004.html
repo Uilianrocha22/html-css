@@ -35,7 +35,7 @@
 </head>
 <body>
      <h1>exemplo de formulario</h1>
-     <form action="cadastro.php" method="get" autocomplete="on">
+     <form action="cadastro.php" method="get" autocomplete="off">
           <fieldset>
                <legend>dados pessoais</legend>
                <p>
@@ -44,7 +44,7 @@
                </p>
                <p>
                     <label for="iemail">E-mail :</label>
-                    <input type="email" name="email" id="iemail" required autocomplete="email">
+                    <input type="email" name="email" id="iemail" required autocomplete="on">
                </p>
                <p>
                     <label for="itel">telefone:</label>
@@ -53,7 +53,9 @@
                <p>
                     <input type="submit" value="Enviar" class="botao">
                     <input type="reset" value="Limpar" class="botao2">
-          </fieldset>  </p>
+               </p>
+          </fieldset>  
+
      </form>
      
 </body>
