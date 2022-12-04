@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>formulario</title>
+     <style>
+          legend{
+               color: blue;
+               
+              
+              
+          }
+          fieldset{
+              border: 2px solid black;
+              width: px;
+              border-radius: 5px;
+              box-shadow: 3px 3px 05px rgba(0, 0, 255, 0.468);
+          }
+          form{
+               color: blue;
+          }
+          .botao:hover{
+               background-color: blue;
+               color: white;
+          }
+          .botao2:hover{
+               background-color: black;
+               color: white;
+
+          }
+
+     </style>
+</head>
+<body>
+     <h1>exemplo de formulario</h1>
+     <form action="cadastro.php" method="get" autocomplete="on">
+          <fieldset>
+               <legend>dados pessoais</legend>
+               <p>
+                    <label for="inome">nome:</label>
+                    <input type="text" name="nome" id="inome">
+               </p>
+               <p>
+                    <label for="iemail">E-mail :</label>
+                    <input type="email" name="email" id="iemail" required autocomplete="email">
+               </p>
+               <p>
+                    <label for="itel">telefone:</label>
+                    <input type="tel" name="tel" id="itel">
+               </p>
+               <p>
+                    <input type="submit" value="Enviar" class="botao">
+                    <input type="reset" value="Limpar" class="botao2">
+          </fieldset>  </p>
+     </form>
+     
+</body>
+</html>
