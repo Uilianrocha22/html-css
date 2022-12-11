@@ -9,10 +9,10 @@
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="media-query.css">
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="mudoutamanho()">
      <header>
           <h1>Meu Site</h1>
-          <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+          <i id="burguer" class="material-symbols-outlined" onclick="clickmenu()">
                menu
           </i>
               <nav id="itens">
@@ -46,7 +46,7 @@
 
           <script>
 
-               function clickMenu() {
+               function clickmenu() {
 
                     if (itens.style.display == 'block'){
                          itens.style.display = 'none'
@@ -57,7 +57,7 @@
      
                }
 
-               function mudouTamanho(){
+               function mudoutamanho(){
 
                     if (window.innerWidth >= 768) {
                          itens.style.display = 'block'
